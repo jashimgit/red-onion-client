@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./components/home/Home";
 
@@ -6,9 +6,9 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Link path="/">
+                <Route path="/">
                     <Home />
-                </Link>
+                </Route>
             </Switch>
         </Router>
     );

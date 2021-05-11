@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+/* navbar */
+.navbar-brand img {
+    height: 40px;
+}
+.nav-item a {
+    color: black;
+    font-weight: 600;
+}
+.nav-item a:hover {
+    background-color: red;
+    color: white;
+    padding: 5px 35px;
+    border-radius: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 5px 25px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-red {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-weight: 600;
+}
+.btn-red:hover {
+    border: 1px solid red;
+    background-color: white;
+    color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control.me-2 {
+    border-radius: 30px;
+    margin-right: -1.5rem !important;
+}
+.banner {
+    background-image: url(./assets/images/bannerbackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 700px;
+}
+.banner-text {
+    text-align: center;
+    font-weight: 700;
+}
+.banner-text h1 {
+    font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* menu */
+.menu-list ul {
+    list-style-type: none;
+    text-align: center;
+}
+.menu-list ul li {
+    display: inline;
+    padding-left: 25px;
+}
+.menu-list ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.menu-list ul li a:hover {
+    color: red;
+    border-bottom: 5px solid red;
 }
 
-.App-link {
-  color: #61dafb;
+/* menu-item */
+.menu img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+.card {
+    border: none !important;
+    padding: 50px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* checkout */
+.checkout button {
+    color: white;
+    background-color: lightgray;
+    padding: 5px 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* footer */
+footer {
+    background-color: black;
+}
+footer img {
+    height: 40px;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer ul li a:hover {
+    color: red;
+}
+.copyright ul {
+    list-style: none;
+}
+.copyright ul li {
+    display: inline;
+    padding: 20px;
+    color: white;
+}
+.copyright a {
+    text-decoration: none;
 }
