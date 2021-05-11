@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
+import "./App.css";
+import Home from "./components/home/Home";
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+    return (
+        <Router>
+            <Switch>
+                <Link path="/">
+                    <Home />
+                </Link>
+            </Switch>
+        </Router>
+    );
 }
 
 export default App;
