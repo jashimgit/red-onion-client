@@ -1,7 +1,7 @@
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from "react";
 import { Link } from 'react-router-dom';
-
-
+import {FaOpencart} from 'react-icons/fa';
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <ul className="navbar-nav ms-auto mx-5 px-5">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="#">
-                                <i className="fas fa-shopping-cart"></i>
+                                <FaOpencart/>
                             </Link>
                         </li>
                         <li className="nav-item">
